@@ -1,20 +1,25 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import {View , Text} from 'react-native'
+import { useEffect } from 'react';
 
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+import {
+  DataCaptureContext
+} from 'scandit-react-native-datacapture-core';
+
+const App = () => {
+
+  useEffect(() => {
+
+    const dataCaptureContext = DataCaptureContext.forLicenseKey('-- ENTER YOUR SCANDIT LICENSE KEY HERE --');
+    const viewRef = React.createRef();
+
+  },[])
+
+ 
+  return ( 
+    <View style={{margin:100}}>
+      <Text>hELLO</Text>
     </View>
-  );
+   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+ 
+export default App;

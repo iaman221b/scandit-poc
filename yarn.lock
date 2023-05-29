@@ -5827,6 +5827,18 @@ sax@>=0.6.0:
   resolved "https://registry.yarnpkg.com/sax/-/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
   integrity sha512-NqVDv9TpANUjFm0N8uM5GxL36UgKi9/atZw+x7YFnQ8ckwFGKrl4xX4yWtrey3UJm5nP1kUbnYgLopqWNSRhWw==
 
+scandit-react-native-datacapture-barcode@^6.17.2:
+  version "6.17.2"
+  resolved "https://registry.yarnpkg.com/scandit-react-native-datacapture-barcode/-/scandit-react-native-datacapture-barcode-6.17.2.tgz#c5646f5d257f5affa1c74db894304cb06b170652"
+  integrity sha512-GK/Z1pIuzFjvPOC08WIw5nVM4Av9QOwdtvHXbCLaQHqtdz6PML9f1GTkEXiOfVgs2iA3B5ogBgmPtXXL5DUubw==
+  dependencies:
+    scandit-react-native-datacapture-core "6.17.2"
+
+scandit-react-native-datacapture-core@6.17.2, scandit-react-native-datacapture-core@^6.17.2:
+  version "6.17.2"
+  resolved "https://registry.yarnpkg.com/scandit-react-native-datacapture-core/-/scandit-react-native-datacapture-core-6.17.2.tgz#3f1223dc0b8595d0d49ead6390544484abc49d52"
+  integrity sha512-0esRAe+yKXpQI+jmTEE+qxIIWNiQZnct5Oq/4l+PZdDo10DDy9MijxGX6deLt5yh4Qo2JBlZFk8Qg49NmODw9A==
+
 scheduler@^0.23.0:
   version "0.23.0"
   resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.23.0.tgz#ba8041afc3d30eb206a487b6b384002e4e61fdfe"
